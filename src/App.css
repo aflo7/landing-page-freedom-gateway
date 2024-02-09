@@ -9,23 +9,25 @@
 .yellow-burger {
   height: 15px;
   width: 35px;
-  border-top: 2px solid rgb(191,143,38);
-  border-bottom: 2px solid rgb(191,143,38);
-
-
+  border-top: 2px solid rgb(191, 143, 38);
+  border-bottom: 2px solid rgb(191, 143, 38);
 }
 
 .logo-wrapper {
   height: 40px;
 }
 
-.logo-wrapper > img{
+.logo-wrapper > img {
   height: 100%;
   /* width: auto; */
 }
 
 main {
-  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),url(https://images.squarespace-cdn.com/content/v1/60e3cd911e13b469b3119c20/f8c88fa1-f9de-44d4-a12f-aa131ad3ded1/unsplash-image-64iuIOektb4.jpg?format=2500w);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url(https://images.squarespace-cdn.com/content/v1/60e3cd911e13b469b3119c20/f8c88fa1-f9de-44d4-a12f-aa131ad3ded1/unsplash-image-64iuIOektb4.jpg?format=2500w);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,6 +60,9 @@ h1 {
 }
 
 @media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
   .yellow-burger {
     display: none;
   }
@@ -66,25 +71,24 @@ h1 {
     display: flex;
     align-items: center;
     gap: 20px;
-    color: rgb(191,143,38);
+    color: rgb(191, 143, 38);
   }
 
-  .right-nav > div{
+  .right-nav > div {
     padding-top: 5px;
     padding-bottom: 5px;
   }
 
   .yellow-icon {
-    color: rgb(255,191,50);
+    color: rgb(255, 191, 50);
     font-size: 1.4rem;
   }
 
   .home-btn {
-    border-bottom: 2px solid rgb(191,143,38);
+    border-bottom: 2px solid rgb(191, 143, 38);
   }
 
-.logo-wrapper {
-  height: 80px;
-
-}
+  .logo-wrapper {
+    height: 80px;
+  }
 }
