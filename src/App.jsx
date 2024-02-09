@@ -1,6 +1,4 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+
 import './App.css';
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -8,7 +6,6 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -30,8 +27,8 @@ function App() {
         </div>
       </nav>
       <main>
-        <h1>Building the Future of Finance</h1>
-        <button className='locations-btn'>Locations</button>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <button className='locations-btn'>Mock</button>
       </main>
     </>
   );
