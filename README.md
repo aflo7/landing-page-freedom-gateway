@@ -1,4 +1,4 @@
-See the site here:
+See the site here: https://aflo7.github.io/landing-page-freedom-gateway/
 
 <hr>
 
